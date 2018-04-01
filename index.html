@@ -34,19 +34,115 @@
   <meta name="twitter:image" content="https://brennohax.github.io/hacking.jpg">
   <!-- <meta name="twitter:creator" content="@estevanmaito"> -->
   <meta name="twitter:site" content="@empresa">
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet"> 
+  <style>
+    body {
+        margin: 0;
+        background-color: #EEEEEE;
+    }
+
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        width: 25%;
+        background-color: #393E46;
+        position: fixed;
+        height: 100%;
+        overflow: auto;
+    }
+
+    li a {
+        display: block;
+        color: #EEEEEE;
+        padding: 8px 16px;
+        text-decoration: none;
+        font-family: 'Roboto', sans-serif;
+    }
+
+    li a.active {
+        background-color: #00ADB5;
+        color: white;
+    }
+
+    li a:hover:not(.active) {
+        background-color: #555;
+        color: white;
+    }
+    section {
+      margin-left: 25%;
+      padding: 1px 16px;
+      height: 100px;
+    }
+    h1,h2,h3 {
+      color: #222831;
+      font-family: 'Roboto', sans-serif;
+    }
+    p {
+      color: #393E46;
+      font-family: 'Lato', sans-serif;
+    }
+    h1 {
+      font-size: 40px;
+    }
+    .button {
+      background-color: #00ADB5;
+      border: none;
+      color: white;
+      padding: 15px 32px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      border: 2px solid #EEEEEE;
+      border-radius: 25px;
+    }
+  </style>
 </head>
 <body>
-  <section id="menu">
+  <div id="menu">
     <header>
-      
+      <nav>
+        <ul>
+          <li>
+            <a href="#" class="active">HOME</a>
+          </li>
+          <li>
+            <a href="#">BLOG</a>
+          </li>
+          <li>
+            <a href="#">CONTATO</a>
+          </li>
+        </ul>
+       </nav>
     </header>
-  </section>
+  </div>
   <section id="home">
+    <div class="home">
+    <center>
+      <h1>Brenno Alcântara</h1>
+      <p>Meu nome é Brenno Alcântara, tenho 15 anos, desde pequeno sou fascinado pelo mundo dos códigos e do ethical hacking.</p>
+      <hr>
+    </center> 
+    <div class="conteudo">
+      <p>Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde o século XVI, quando um impressor desconhecido pegou uma bandeja de tipos e os embaralhou para fazer um livro de modelos de tipos. Lorem Ipsum sobreviveu não só a cinco séculos, como também ao salto para a editoração eletrônica, permanecendo essencialmente inalterado. Se popularizou na década de 60, quando a Letraset lançou decalques contendo passagens de Lorem Ipsum, e mais recentemente quando passou a ser integrado a softwares de editoração eletrônica como Aldus PageMaker.</p>
+      <p>Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde o século XVI, quando um impressor desconhecido pegou uma bandeja de tipos e os embaralhou para fazer um livro de modelos de tipos. Lorem Ipsum sobreviveu não só a cinco séculos, como também ao salto para a editoração eletrônica, permanecendo essencialmente inalterado. Se popularizou na década de 60, quando a Letraset lançou decalques contendo passagens de Lorem Ipsum, e mais recentemente quando passou a ser integrado a softwares de editoração eletrônica como Aldus PageMaker.</p>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <center>
+        <a href="#" class="button">Fale conosco</a>
+      </center>  
+    </div>     
+    </div>
   </section>
-  <section id="home">
+  <section id="blog">
     
   </section>
-  <section id="home">
+  <section id="contato">
     
   </section>
 </body>
